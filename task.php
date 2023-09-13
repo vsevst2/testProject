@@ -40,7 +40,7 @@ class NameApi {
                {
 				   
 				   
-				   if(($res_vacancy->id==$vid)&&($vid>0)){ // конкретная вакансия
+				   if($res_vacancy->id==$vid && ($vid>0)){ // конкретная вакансия
 					   
 					   array_push($ret,$res_vacancy);
 					   return $ret;// выше добавим вакансию в массив как единственный элемент и выйдем из функции вернув массив
