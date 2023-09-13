@@ -19,7 +19,7 @@ class NameApi {
         }
 
         $page = 0;
-        $found = false;
+       
        
         
 		
